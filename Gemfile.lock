@@ -160,6 +160,7 @@ GEM
       ffi (>= 1.0.7)
       json_pure
       rubyzip
+    spork (0.8.5)
     sprockets (2.0.0.beta.10)
       hike (~> 1.0)
       rack (~> 1.0)
@@ -190,4 +191,5 @@ DEPENDENCIES
   rspec-rails
   ruby-debug19
   sass-rails (~> 3.1.0.rc)
+  spork
   uglifier
