@@ -20,11 +20,13 @@ gem 'jquery-rails'
 # Deploy with Capistrano
 gem 'capistrano'
 
-# To use debugger
-gem 'ruby-debug19', :require => 'ruby-debug'
+gem "haml"
 
 group :development,:test do
+  # To use debugger
+  gem 'ruby-debug19', :require => 'ruby-debug'
   gem "rspec-rails"
+  gem "haml-rails"
   gem "cucumber-rails"
   gem 'database_cleaner'
 end
