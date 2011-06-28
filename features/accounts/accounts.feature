@@ -3,7 +3,7 @@ Feature: Accounts
   As a site owner
   I want users to have an account
   
-  
+@wip  
 Scenario: Register
   Given I am logged out
   When I register
