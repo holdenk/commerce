@@ -5,8 +5,6 @@ module AccountsHelper
   
   def register_as(as="sandy")
     visit '/register'
-    debugger
-    1
   end
 end
 World(AccountsHelper)

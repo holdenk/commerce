@@ -50,6 +50,7 @@ GEM
       xpath (~> 0.1.4)
     childprocess (0.1.9)
       ffi (~> 1.0.6)
+    coderay (0.9.8)
     coffee-script (2.2.0)
       coffee-script-source
       execjs
@@ -187,6 +188,7 @@ PLATFORMS
 
 DEPENDENCIES
   capistrano
+  coderay
   coffee-script
   cucumber-rails
   database_cleaner

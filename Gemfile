@@ -29,5 +29,6 @@ group :development,:test do
   gem "haml-rails"
   gem "cucumber-rails"
   gem 'database_cleaner'
+  gem 'coderay' # for peek body
 end
 

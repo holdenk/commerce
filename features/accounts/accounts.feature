@@ -7,7 +7,9 @@ Feature: Accounts
 Scenario: Register
   Given I am logged out
   When I register
+  And peek body
   Then I should have an account
+  And peek body
 
 
 
